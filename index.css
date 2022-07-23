@@ -1,6 +1,15 @@
 body {
     font-family: sans-serif;
     margin: 0;
+    height: 1500px;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+    color: #F8F7FF;
 }
 
 a {
@@ -10,11 +19,12 @@ a {
 
 header {
     display: flex;
-    background-color: #ff5757;
+    background-color: white;
     min-height: 70px;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    box-shadow: 0 0.1px;
 }
 
 .logo {
@@ -23,7 +33,7 @@ header {
 }
 
 .logo img {
-    height: 60px;
+    height: 85px;
     margin-left: 15px;
 }
 
@@ -33,14 +43,15 @@ nav a {
 }
 
 nav :hover {
-    color: white;
+    color: #ff00d3;
 }
 
 @media (max-width:700px) {
     header {
         flex-direction: column;
     }
-    nav{
+
+    nav {
         padding: 10px 0px;
     }
 }
