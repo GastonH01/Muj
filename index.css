@@ -37,9 +37,13 @@ header {
     margin-left: 15px;
 }
 
+nav{
+    word-spacing: 50px;
+    padding-right: 50px;
+}
+
 nav a {
     font-weight: 550;
-    padding-right: 45px;
 }
 
 nav :hover {
