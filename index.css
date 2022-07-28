@@ -9,6 +9,7 @@ a{
 }
 
 .tit-emp{
+    font-family:'Courgette', cursive;
     display: inline-grid;
     color: #00fff9;
     position: relative;
@@ -16,6 +17,7 @@ a{
 }
 
 .color-asc{
+    font-family:'Courgette', cursive;
     color: #f2ff00
 }
 
@@ -32,10 +34,11 @@ header{
 }
 
 .logo img{
+    color: black;
     height: 50px;
     margin-left: 10px;
     position: flex;
-    bottom: 10px;
+    bottom: 12px;
 }
 
 nav a{
@@ -45,13 +48,13 @@ nav a{
 }
 
 nav a:hover{
-    color: white;
+    color: black;
 }
 
 .logo-img{
     position: relative;
-    left: 15px;
-    top: 1px;
+    left: 13px;
+    top: 1.3px;
 }
 
 .logo-img:hover{
