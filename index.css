@@ -1,13 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: sans-serif;
-    margin: 0;
 }
-
-a{
-    text-decoration: none;
-    color: black;
-}
-
 .tit-emp{
     font-family:'Courgette', cursive;
     display: inline-grid;
@@ -23,11 +21,10 @@ a{
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
     min-height: 75px;
     background-color: #dc88f6;
-    padding: 10px;
 }
 .logo{
     position: relative;
@@ -40,26 +37,22 @@ header{
     position: flex;
     bottom: 12px;
 }
-
-nav a{
-    font-weight: 400;
-    padding-right: 10px;
-    margin: 10px;
-}
-
-nav a:hover{
+a{
+    text-decoration: none;
     color: black;
 }
 
-/*
-.logo-img{
-    position: relative;
-    left: 13px;
-    top: 1.3px;
-}
-
-.logo-img:hover{
+.icon-plus:hover{
+    color: #00fff9;
     cursor: pointer;
-    color: black;
 }
-*/
+.icon:hover{
+    color: #f2ff00;
+}
+
+.lista-nav{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+}
