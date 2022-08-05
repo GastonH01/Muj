@@ -1,58 +1,130 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+
+body {
     font-family: sans-serif;
 }
-.tit-emp{
-    font-family:'Courgette', cursive;
+
+.tit-emp {
+    font-family: 'Courgette', cursive;
     display: inline-grid;
     color: #00fff9;
     position: relative;
     bottom: 30px;
+    text-shadow: 0.5px 0.5px 0.5px black;
 }
 
-.color-asc{
-    font-family:'Courgette', cursive;
-    color: #f2ff00
+.color-asc {
+    font-family: 'Courgette', cursive;
+    color: #f2ff00;
+    text-shadow: 0.5px 0.5px 0.5px black;
 }
 
-header{
+header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-end;
     min-height: 75px;
     background-color: #dc88f6;
 }
-.logo{
+
+.logo {
     position: relative;
 }
 
-.logo img{
+.logo img {
     color: black;
     height: 50px;
-    margin-left: 10px;
-    position: flex;
-    bottom: 12px;
+    margin-left: 40px;
+
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
 
-.icon-plus:hover{
+
+.icon-plus:hover {
     color: #00fff9;
     cursor: pointer;
 }
-.icon:hover{
+
+.nav:hover {
     color: #f2ff00;
 }
 
-.lista-nav{
+.nav-1:hover {
+    color: #00fff9;
+}
+
+
+.nav-3 {
+    position: relative;
+    right: 2.5px;
+}
+
+
+.nav-3:hover {
+    cursor: pointer;
+    color: #f2ff00;
+}
+
+.lista-nav {
     list-style: none;
     display: flex;
     gap: 20px;
     padding-bottom: 10px;
+}
+
+.icon-plus {
+    position: relative;
+    right: 2px;
+}
+
+nav {
+    margin-right: 40px;
+}
+
+.section-inic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dc88f6;
+    color: black;
+}
+
+.container-sect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sect p {
+    display: flex;
+    text-align: center;
+}
+
+.section-c{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#00fff9;
+    color: black;
+    flex-direction: row-reverse;
+}
+.section-d{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-d p:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #f2ff00;
 }
